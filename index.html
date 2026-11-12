@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profil Saya</title>
+  <!-- W3.CSS & Font Google -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Poppins", sans-serif;
+    }
+
+    /* Efek transisi halus */
+    .w3-sidebar {
+      transition: 0.3s;
+    }
+
+    .w3-button {
+      transition: 0.2s;
+    }
+
+    /* Styling foto profil */
+    .profile-img-container {
+      padding: 32px 16px;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 110px;
+      height: 110px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      border: 3px solid #fff;
+    }
+
+    /* Pengaturan jarak antar item navigasi */
+    .nav-item {
+      padding: 14px 24px !important;
+      margin-bottom: 4px;
+    }
+
+    /* Spacing konten utama */
+    .main-content {
+      margin-left: 260px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .about-card {
+      padding: 40px !important;
+      line-height: 1.8;
+    }
+  </style>
+</head>
+
+<body class="w3-light-coklat">
+
+  <!-- Sidebar -->
+  <div class="w3-sidebar w3-white w3-bar-block w3-card" style="width:260px; z-index:3;">
+    <!-- Bagian Foto & Nama di Sidebar -->
+    <div class="profile-img-container w3-teal w3-margin-bottom">
+      <img src="img/foto.jpeg" alt="Foto Profil" class="profile-img">
+      <h4 class="w3-text-white" style="margin-top: 14px; font-size: 18px; font-weight: 600;">fitrisumarlia</h4>
+    </div>
+
+    <div class="w3-bar-item w3-text-grey w3-padding"
+      style="font-size: 11px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase;">
+      Menu Navigasi
+    </div>
+
+    <div class="w3-padding-small">
+      <a href="Profile.html" class="w3-bar-item w3-button w3-round nav-item w3-light-grey w3-text-teal"
+        style="font-weight: 500;">
+        <i class="fa fa-user w3-margin-right"></i>Profile
+      </a>
+      <a href="Data diri.html" class="w3-bar-item w3-button w3-round nav-item">
+        <i class="fa fa-id-card w3-margin-right"></i>Data Diri
+      </a>
+      <a href="Keahlian.html" class="w3-bar-item w3-button w3-round nav-item">
+        <i class="fa fa-tools w3-margin-right"></i>Keahlian
+      </a>
+    </div>
+  </div>
+
+  <!-- Page Content -->
+  <div class="main-content">
+    <div>
+      <!-- Header / Top Bar -->
+      <div class="w3-container w3-teal w3-padding-64 w3-card-2"
+        style="padding-left: 48px !important; padding-right: 48px !important;">
+        <h1 class="w3-xxlarge" style="font-weight: 600; margin-bottom: 8px;">
+          <i class="fa fa-user-circle w3-margin-right"></i>Profile
+        </h1>
+        <p class="w3-opacity" style="font-size: 16px; margin: 0;">Selamat datang di halaman portofolio pribadi saya.</p>
+      </div>
+
+      <!-- Main Container Content -->
+      <div class="w3-container" style="padding: 48px !important;">
+        <!-- Kartu Informasi Utama -->
+        <div class="w3-card-2 w3-white w3-round-large about-card">
+          <h3 class="w3-text-teal" style="font-weight: 600; margin-bottom: 16px;">
+            <i class="fa fa-info-circle w3-margin-right"></i>Tentang Saya
+          </h3>
+          <hr class="w3-clear" style="margin-bottom: 24px; border-top: 2px solid #f1f1f1;">
+
+          <p class="w3-large w3-text-dark-grey" style="margin-bottom: 32px; font-size: 16px !important;">
+            Lulusan SMK Tata Boga dengan pengalaman magang di beberapa restoran ternama. Memiliki keterampilan dalam
+            memasak berbagai masakan Indonesia dan internasional, serta memiliki kemampuan untuk bekerja dalam tim.
+            Berkomitmen untuk selalu memberikan hasil terbaik di dunia kuliner.</p>
+
+          <!-- Tombol Interaktif -->
+          <div></div>
+          <a href="Keahlian.html" class="w3-button w3-teal w3-round-large w3-padding-large" style="font-weight: 500;">
+            Lihat Keahlian <i class="fa fa-arrow-right w3-margin-left"></i>
+          </a>
+        </div>
+        <div>
+          <a href="Data diri.html" class="w3-button w3-teal w3-round-large w3-padding-large" style="font-weight: 500;">
+            Lihat Data Diri <i class="fa fa-arrow-right w3-margin-left"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-center w3-text-grey">
+    <p style="margin: 0; font-size: 14px;">&copy; 2026 - Dibuat dengan W3.CSS</p>
+  </footer>
+  </div>
+
+</body>
+
+</html>

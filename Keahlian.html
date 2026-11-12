@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profil Saya</title>
+  <!-- W3.CSS & Font Google -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/6/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Poppins", sans-serif;
+    }
+
+    /* Efek transisi halus untuk sidebar dan tombol */
+    .w3-sidebar {
+      transition: 0.3s;
+    }
+
+    .w3-button {
+      transition: 0.2s;
+    }
+
+    /* Styling tambahan untuk foto profil */
+    .profile-img-container {
+      padding: 24px;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      border: 3px solid #fff;
+    }
+  </style>
+</head>
+
+<body class="w3-light-grey">
+  <!-- Sidebar -->
+  <div class="w3-sidebar w3-white w3-bar-block w3-card" style="width:260px; z-index:3;">
+    <!-- Bagian Foto & Nama di Sidebar -->
+    <div class="profile-img-container w3-teal">
+      <img src="img/foto.jpeg" alt="Foto Profil" class="profile-img">
+    </div>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large"><i
+        class="fa fa-home w3-margin-right"></i>Beranda</a>
+    <a href="Data diri.html" class="w3-bar-item w3-button w3-padding-large"><i
+        class="fa fa-id-card w3-margin-right"></i>Data Diri</a>
+    <a href="Keahlian.html" class="w3-bar-item w3-button w3-padding-large"><i
+        class="fa fa-tools w3-margin-right"></i>Keahlian</a>
+  </div>
+  <!-- Page Content -->
+  <div style="margin-left:260px">
+    <!-- Header -->
+    <div class="w3-container w3-teal w3-padding-large" id="about">
+      <h1><b>Profil Saya</b></h1>
+    </div>
+    <!-- Dropdown Navigation (Mobile) -->
+    <div class="w3-container w3-padding-large w3-hide-large w3-hide-medium">
+      <a href="index.html" class="w3-button w3-block w3-teal w3-margin-bottom w3-padding-16">
+        <i class="fa fa-home w3-margin-right"></i>Beranda
+      </a>
+      <a href="Data diri.html" class="w3-button w3-block w3-teal w3-margin-bottom w3-padding-16">
+        <i class="fa fa-id-card w3-margin-right"></i>Data Diri
+      </a>
+      <a href="Keahlian.html" class="w3-button w3-block w3-teal w3-margin-bottom w3-padding-16">
+        <i class="fa fa-tools w3-margin-right"></i>Keahlian
+      </a>
+    </div>
+    <!-- Keahlian -->
+    <div class="w3-container w3-card w3-white w3-margin-top">
+      <h2 class="w3-text-teal w3-padding-top-16">Keahlian Teknis</h2>
+      <hr>
+      <p>Berikut adalah keahlian teknis yang saya miliki:</p>
+      <p><strong>1. Microsoft Office</strong></p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-teal w3-round-xlarge" style="width:70%">70%</div>
+      </div><br>
+      <p><strong>2. WordPress</strong></p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-teal w3-round-xlarge" style="width:50%">50%</div>
+      </div><br>
+      <p><strong>3. Adobe Photoshop</strong></p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-teal w3-round-xlarge" style="width:75%">75%</div>
+      </div><br>
+      <p><strong>4. Pemrograman Dasar (HTML, CSS)</strong></p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-teal w3-round-xlarge" style="width:75%">75%</div>
+      </div><br>
+    </div>
+    <!-- Soft Skills -->
+    <div class="w3-container w3-card w3-white w3-margin-top">
+      <h2 class="w3-text-teal">Soft Skills</h2>
+      <hr>
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-container w3-padding-small w3-margin-bottom">
+          <ul class="w3-ul w3-border">
+            <li>Komunikasi Efektif</li>
+            <li>Kerja Sama Tim</li>
+            <li>Problem Solving</li>
+          </ul>
+        </div>
+        <div class="w3-half w3-container w3-padding-small w3-margin-bottom">
+          <ul class="w3-ul w3-border">
+            <li>Adaptif</li>
+            <li>Manajemen Waktu</li>
+            <li>Kemauan Belajar</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Languages -->
+    <div class="w3-container w3-card w3-white w3-margin-top">
+      <h2 class="w3-text-teal">Bahasa</h2>
+      <hr>
+      <p>Bahasa Indonesia (Lisan & Tulisan)</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-teal w3-round-xlarge" style="width:100%">100%</div>
+      </div><br>
+      <p>Bahasa Inggris</p>
+      <div class="w3-light-grey w3-round-xlarge w3-small">
+        <div class="w3-container w3-teal w3-round-xlarge" style="width:75%">75%</div>
+      </div><br>
+    </div>
+    <!-- Footer -->
+    <div class="w3-container w3-dark-grey w3-padding-16 w3-margin-top">
+      <p>Desain: W3.CSS & CSS Kustom</p>
+    </div>
+  </div>

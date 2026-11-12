@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Data Diri</title>
+  <!-- W3.CSS & Google Fonts & FontAwesome -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/6/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Poppins", sans-serif;
+    }
+
+    .w3-sidebar {
+      transition: 0.3s;
+    }
+
+    .w3-button {
+      transition: 0.2s;
+    }
+
+    .profile-img-container {
+      padding: 24px;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      border: 3px solid #fff;
+    }
+
+    .detail-img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body class="w3-light-grey">
+
+  <!-- Sidebar -->
+  <div class="w3-sidebar w3-white w3-bar-block w3-card" style="width:260px; z-index:3;">
+    <div class="profile-img-container w3-teal">
+      <img src="img/foto.jpeg" alt="Foto Profil" class="profile-img">
+      <h4 class="w3-text-white" style="margin-top: 10px; font-size: 18px;">Fitri Sumarlia</h4>
+    </div>
+
+    <div class="w3-bar-item w3-text-grey" style="font-size: 12px; font-weight: bold; text-transform: uppercase;">Menu
+      Navigasi</div>
+    <a href="Profile.html" class="w3-bar-item w3-button w3-padding-large"><i
+        class="fa fa-user w3-margin-right"></i>Profile</a>
+    <a href="Data diri.html" class="w3-bar-item w3-button w3-padding-large w3-teal"><i
+        class="fa fa-id-card w3-margin-right"></i>Data Diri</a>
+    <a href="Keahlian.html" class="w3-bar-item w3-button w3-padding-large"><i
+        class="fa fa-tools w3-margin-right"></i>Keahlian</a>
+  </div>
+
+  <!-- Page Content -->
+  <div style="margin-left:260px">
+
+    <!-- Header / Top Bar -->
+    <div class="w3-container w3-teal w3-padding-32 w3-card-4">
+      <h1 class="w3-xxlarge" style="font-weight: 600;"><i class="fa fa-id-card w3-margin-right"></i>Data Diri</h1>
+      <p class="w3-opacity">Informasi pribadi dan biodata lengkap.</p>
+    </div>
+
+    <!-- Main Container Content -->
+    <div class="w3-container w3-padding-32">
+      <div class="w3-row-padding">
+
+
+
+        <!-- Kolom Tabel Informasi Biodata -->
+        <div class="w3-twothirds">
+          <div class="w3-card-4 w3-white w3-round-large w3-padding-24">
+            <h3 class="w3-text-teal"><i class="fa fa-user-tag w3-margin-right"></i>Biodata Lengkap</h3>
+            <hr class="w3-clear">
+
+            <table class="w3-table w3-striped w3-bordered w3-hoverable">
+              <tr>
+                <td style="width: 30%; font-weight: bold;"><i class="fa fa-user w3-text-teal w3-margin-right"></i>Nama
+                  Lengkap</td>
+                <td>: Fitri Sumarliah</td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold;"><i class="fa fa-calendar w3-text-teal w3-margin-right"></i>Tempat, Tgl
+                  Lahir</td>
+                <td>: Cilegon,05 November 2005</td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold;"><i class="fa fa-envelope w3-text-teal w3-margin-right"></i>Email</td>
+                <td>: fitrisumarlia5@gmail.com</td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold;"><i class="fa fa-phone w3-text-teal w3-margin-right"></i>No. Telepon</td>
+                <td>: +62 89517286660</td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold;"><i class="fa fa-map-marker-alt w3-text-teal w3-margin-right"></i>Alamat
+                </td>
+                <td>: Jl. Jombang Cemara RT 03 RW 06 , Kel Jombang , Kota Cilegon</td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold;"><i
+                    class="fa fa-graduation-cap w3-text-teal w3-margin-right"></i>Pendidikan</td>
+                <td>: S1 Sistem Informasi</td>
+              </tr>
+            </table>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-16 w3-center w3-text-grey">
+      <p>&copy; 2026 - Dibuat dengan W3.CSS</p>
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
